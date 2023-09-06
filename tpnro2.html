@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tpnro2.css" />
+    <title>Practico n°2</title>
+  </head>
+  <body>
+    <form>
+      <label>*Nombre: </label>
+      <input type="text" required id="nombre" />
+      <label>*Apellido: </label>
+      <input type="text" required id="apellido" />
+      <label>*Email:</label>
+      <input type="email" name="gmail" id="email" />
+      <label>*Contraseña:</label>
+      <input type="password" name="contraseña" id="contraseña" />
+      <label>Genero:</label>
+      <label id="label1">Masculino</label>
+      <input type="radio" name="sexo" id="sexo" group />
+      <label>Femenino</label>
+      <input type="radio" name="sexo" id="sexo" group />
+      <label>Fecha de nacimiento</label>
+      <input type="date" name="fechNAC" id="fechNAC" />
+      <label>Telefono:</label>
+      <input type="tel" name="telefono" id="celular" />
+      <label id="colorfav">Elija su color favorito: </label>
+      <select name="listita" id="listita" >
+        <option value="0" disabled selected>Color favorito:</option>
+        <option value="1">Rosa</option>
+        <option value="2">Celeste</option>
+        <option value="3">Verde</option>
+        <option value="4">Morado</option>
+      </select>
+      <label id="nivel">Nivel de felicidad:</label>
+      <fieldset id="felicidad">
+        <input type="range" name="range" id="rango">
+      </fieldset>
+      <button type="submit" id="botonConfirmar">Confirmar</button>
+    </form>
+  </body>
+</html>

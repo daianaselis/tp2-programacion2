@@ -1,0 +1,37 @@
+input{
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    text-align:center;
+    margin: 10px;
+    align-items: unsafe;
+}
+input:hover{
+    transition: 2s;
+    background-color: rosybrown;
+}
+#label1{
+    display: block;
+    margin: 1px;
+    text-align: justify;
+}
+#listita{
+    display: block;
+    margin-bottom: 8px;
+
+}
+#colorfav:hover{
+    transition: 2s;
+    background-color: cadetblue;
+}
+#botonConfirmar{
+    display: block;
+    margin: 4px;
+    padding: 3px;
+}
+#felicidad{
+    width: 50px;
+}
+#nivel{
+    margin: 1px;
+}
